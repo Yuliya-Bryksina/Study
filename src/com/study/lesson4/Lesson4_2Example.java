@@ -7,6 +7,6 @@ public class Lesson4_2Example {
         if (a % 10 == 3)
             System.out.println("Число оканчивается на 3");
         else
-            System.out.println("Число не оканчивается на 3!!!");
+            System.out.println("Число не оканчивается на 3!!!!");
     }
 }
