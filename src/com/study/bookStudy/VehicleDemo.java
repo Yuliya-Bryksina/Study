@@ -1,7 +1,7 @@
 package com.study.bookStudy;
 
 class Vehicle {
-    int  passengers;
+    int passengers;
     int fuelcap;
     int mpg;
 }
@@ -15,7 +15,7 @@ class VehicleDemo {
         minivan.passengers = 7;
         minivan.mpg = 21;
 
-        //Расчет дальности поездки с полным баком горючего
+        //Расчет дальности поездки с полным баком горючего.
         range = minivan.fuelcap * minivan.mpg;
         System.out.println("Мини-фургон может провезти " + minivan.passengers + " пассажиров на расстояние " + range + " миль");
     }
